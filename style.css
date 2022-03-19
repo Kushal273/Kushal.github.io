@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+}
+body{
+background-color: #f0f2f5;
+font-family: Helvetica, Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+main{
+	text-align: center;
+
+}
+
+h1{
+	font-size: 50px;
+	color: #1877f2;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.loginBox{
+	border-radius: 10px;
+	border:1px shadow white;
+	padding: 15px;
+	background-color: white;
+	width: 400px;
+}
+
+
+
+.loginHeader{
+	margin: 10px 0;
+	margin-bottom: 20px;
+
+}
+
+input{
+	display: block;
+	width: 100%;
+	padding: .77em 1.3em;
+	font-size: 18px;
+	margin: 10px 0;
+	border: 0.1px solid #ddd;
+	outline: none;
+	border-radius: 10px;
+}
+#button{
+	background-color: #1877f2;
+	color: white;
+	border-radius: 7px;
+	
+}
+#button:hover{
+	background-color: #1877d4;
+}
+
+.forget{
+	text-decoration: none;
+	font-size: 17px;
+	color: #1877f2;
+}
+
+
+.orBlock > p{
+font-size: 12px;
+color: #4b4f56;
+margin: 0 2em;
+
+}
+
+.orBlock{
+	display: flex;
+	align-items: center;
+}
+
+.orBlock .dash{
+	border-bottom: 1.5px solid #ddd;
+	height: 0.1px;
+	width: 100%;
+	
+}
+
+.createNewAccount{
+	
+	background-color: #42b72a;
+	border-radius: 10px;
+	color: #ddd;
+	font-size: 20px bold;
+	width: auto;
+	display: inline;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.createNewAccount:hover{
+	background-color: green;
+}
